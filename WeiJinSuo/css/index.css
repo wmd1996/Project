@@ -1,0 +1,59 @@
+html , body {
+    width: 100%;
+    font-size: 14px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color:#333;
+}
+.wjs_container {
+    width: 100%;
+}
+
+/*
+
+公共类
+
+*/
+.bgRed {
+    background-color: #d9534f!important;
+}
+.bgRed:hover {
+    background-color: #d9534f!important;
+    border: 1px solid #d9534f!important;
+}
+.ml_10 {
+    margin-left: 10px!important;;
+}
+.mt_23 {
+    margin-top: 23px!important;
+}
+.mb_23 {
+    margin-bottom: 23px!important;
+}
+
+
+@font-face {
+    font-family: "wjs_hello"; /* 自定义字体名称 */
+    src: url('../font/MiFie-Web-Font.eot');
+    src:url('../font/MiFie-Web-Font.woff') format('woff'),
+    url('../font/MiFie-Web-Font.ttf') format('truetype'),
+    url('../font/MiFie-Web-Font.svg') format('svg');
+}
+.wjs_icon {
+    font-family: wjs_hello;
+}
+.wjs_icon_phone:before {
+    content:"\e908";
+}
+.wjs_icon_tel:before {
+    content:"\e909";
+}
+.wjs_icon_logo:before {
+    content:"\e920";
+}
+.wjs_icon_word:before {
+    content:"\e93e";
+}
+.wjs_icon_baozhang:before {
+    content: "\e903";
+}
+
